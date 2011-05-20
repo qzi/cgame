@@ -159,9 +159,9 @@ CVector3 &CMatrix33::multiply(const CMatrix33 &m1, const CVector3 &v, CVector3 &
 
    	m1._Mx[0][0]*v.x + m1._Mx[0][1]*v.y + m1._Mx[0][2]*v.z,
 
-		m1._Mx[1][0]*v.x + m1._Mx[1][1]*v.y + m1._Mx[1][2]*v.z,
+	m1._Mx[1][0]*v.x + m1._Mx[1][1]*v.y + m1._Mx[1][2]*v.z,
 
-		m1._Mx[2][0]*v.x + m1._Mx[2][1]*v.y + m1._Mx[2][2]*v.z );
+	m1._Mx[2][0]*v.x + m1._Mx[2][1]*v.y + m1._Mx[2][2]*v.z );
 
 	return result;
 
