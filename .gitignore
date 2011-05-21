@@ -4,10 +4,10 @@
 *.user
 /CGame/bin/Debug/
 /CGame/CGame/data/
+/CGame/CGame/glut/
 /CGame/CGame/DevIL/DevIL-SDK-x86-1.7.8/
 /CGame/CGame/CEGUI/CEGUI-SDK-0.7.5-vc9/
 /CGame/CGame/Assimp/assimp--2.0.863-sdk/
-# end
-
 /CGame/CGame/CEGUI.log
 /CGame/CGame/assimp_log.txt
+# end
